@@ -1,0 +1,181 @@
+.main-mission {
+  margin-top: 100px;
+  /* background-color: burlywood; */
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+.mission {
+  background-color: burlywood;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 600px;
+}
+
+.our-mission {
+  padding-top: 90px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.mission-info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-mission span {
+  font-weight: 400;
+  font-size: 18px;
+  /* width: 70vw; */
+  padding: 0 100px;
+}
+
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+  margin: 0 auto;
+  padding: 30px 100px;
+  color: white;
+}
+/* .invite-project {
+  background-color: burlywood;
+} */
+.invite-project h1 {
+  padding-bottom: 20px;
+}
+
+.first-button {
+  width: 246px;
+  height: 64px;
+  box-shadow: 0 6px 6px rgba(255, 255, 255, 0.6);
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-image-slice: 1;
+  color: white;
+  background-color: transparent;
+  border-radius: 13px;
+
+  /* overflow: hidden;
+  outline: none; */
+}
+
+.first-button:nth-of-type(1) {
+  margin-right: 165px !important;
+}
+
+.green-button {
+  width: 246px;
+  height: 64px;
+  background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
+  box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.partners {
+  padding-top: 650px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #003f06;
+  width: 100%;
+}
+
+.partners-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.eco {
+  background: url("../images/eco_omega_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  background-size: contain;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.kg {
+  background: url("../images/kyrgyz_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  background-size: contain;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.jalal {
+  background: url("../images/jalal_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  background-size: contain;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.bishkek {
+  background: url("../images/Bishkek_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  margin-top: 70px;
+  background-size: contain;
+}
+
+.jal {
+  background: url("../images/jalalabat_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  margin-top: 70px;
+  background-size: contain;
+}
+
+.neftegaz {
+  background: url("../images/kyrgyzneftegaz_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  margin-top: 70px;
+  background-size: contain;
+}
+
+.vnipi {
+  background: url("../images/vnipi_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  margin-top: 70px;
+  background-size: contain;
+}
+
+.vodokanal {
+  background: url("../images/bishkekvodokanal_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  margin-top: 70px;
+  background-size: contain;
+}
+
+.te {
+  background: url("../images/te_logo.jpg") no-repeat;
+  width: 172px;
+  height: 175px;
+  margin-right: 70px;
+  background-size: contain;
+  margin-top: 70px;
+}
