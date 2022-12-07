@@ -11,30 +11,32 @@ export default function Creation() {
         </h1>
       </div>
       <div className="information">
-        <div className="first-section">
-          <span>
-            В "Эко Решения" мы считаем, что изменение климата — это кризис
-            нашего времени. <br /> <br />
-            Мы верим, что экологические технологии являются ключевым решением
-            этого глобального <br /> вызова, в том числе вопросов переработки
-            отходов и обеспечения продовольственной, <br /> экологической,
-            энергетической и экономической безопасности. <br /> Мы создаем
-            зеленое будущее путем проектирования и реализации экологических{" "}
-            <br /> проектов, используя синтез из разных технологий. Мы знаем,
-            что решение есть!
-          </span>
-          <div className="first-section-image"></div>
+        <div className="first_section">
+          <div className="start_info">
+            <span>
+              В "Эко Решения" мы считаем, что изменение климата — это кризис
+              нашего времени. <br /> <br />
+              Мы верим, что экологические технологии являются ключевым решением
+              этого глобального <br /> вызова, в том числе вопросов переработки
+              отходов и обеспечения продовольственной, <br /> экологической,
+              энергетической и экономической безопасности. <br /> Мы создаем
+              зеленое будущее путем проектирования и реализации экологических{" "}
+              <br /> проектов, используя синтез из разных технологий. Мы знаем,
+              что решение есть!
+            </span>
+          </div>
+          <div className="first_section_image"></div>
         </div>
-        <div className="second-section">
+        <div className="second_section">
           <div
-            className="second-section-image
+            className="second_section_image
             "
           ></div>
         </div>
       </div>
 
       <div className="slider">
-        <div className="first-eko">
+        <div className="first_eko">
           <h2>Экотехнопарк</h2>
           <div>
             <span style={{ fontSize: "18px" }}>
@@ -50,13 +52,13 @@ export default function Creation() {
             </span>
           </div>
           <button
-            className="button-more
+            className="button_more
           "
           >
             Узнать больше
           </button>
         </div>
-        <div className="second-eko"></div>
+        <div className="second_eko"></div>
       </div>
     </div>
   );

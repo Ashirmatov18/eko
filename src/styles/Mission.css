@@ -1,4 +1,4 @@
-.main-mission {
+.main_mission {
   margin-top: 100px;
   /* background-color: burlywood; */
   text-align: center;
@@ -13,20 +13,20 @@
   height: 600px;
 }
 
-.our-mission {
+.our_mission {
   padding-top: 90px;
   padding-bottom: 40px;
   font-weight: 700;
   font-size: 36px;
 }
 
-.mission-info {
+.mission_info {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.main-mission span {
+.main_mission span {
   font-weight: 400;
   font-size: 18px;
   /* width: 70vw; */
@@ -44,11 +44,11 @@
 /* .invite-project {
   background-color: burlywood;
 } */
-.invite-project h1 {
+.invite_project h1 {
   padding-bottom: 20px;
 }
 
-.first-button {
+.first_button {
   width: 246px;
   height: 64px;
   box-shadow: 0 6px 6px rgba(255, 255, 255, 0.6);
@@ -66,11 +66,11 @@
   outline: none; */
 }
 
-.first-button:nth-of-type(1) {
+.first_button:nth-of-type(1) {
   margin-right: 165px !important;
 }
 
-.green-button {
+.green_button {
   width: 246px;
   height: 64px;
   background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
@@ -91,7 +91,7 @@
   width: 100%;
 }
 
-.partners-icons {
+.partners_icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -178,4 +178,65 @@
   margin-right: 70px;
   background-size: contain;
   margin-top: 70px;
+}
+
+.news {
+  position: absolute;
+  width: 92%;
+}
+
+.news h1 {
+  color: #003f06;
+  font-weight: 700;
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+.main_news {
+  overflow-x: scroll;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  /* white-space: nowrap; */
+}
+
+.main_news::-webkit-scrollbar {
+  width: 0;
+}
+
+.image_news {
+  background: url("../images/image\ 10.jpg");
+  width: 350px;
+  height: 234px;
+  background-size: contain;
+  border-radius: 10px;
+  /* object-fit: contain; */
+}
+
+.news_style {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-right: 40px;
+}
+
+.news_style h2 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #003f06;
+}
+
+.news_style span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #003f06;
+  padding: 0;
+}
+
+.news_style h4 {
+  font-weight: 600;
+  font-size: 19px;
+  color: #003f06;
+  cursor: pointer;
 }

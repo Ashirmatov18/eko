@@ -1,13 +1,16 @@
 import { useState } from "react";
 import "../../../styles/Header.css";
 import logo from "../../../images/loco.png";
+import { BrowserRouter, Route, Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
     <nav className="navigation">
-      <img src={logo} href="/" className="brand-name"></img>
+      <Link to="/">
+        <img src={logo} className="brand-name"></img>
+      </Link>
       <button
         className="hamburger"
         onClick={() => {
@@ -35,16 +38,16 @@ export default function Header() {
       >
         <ul>
           <li>
-            <a href="/home">О Нас</a>
+            <Link to="/about">О нас</Link>
           </li>
           <li>
-            <a href="/about">Эко Решения</a>
+            <a href="/eko">Эко Решения</a>
           </li>
           <li>
-            <a href="/contact">Технологии</a>
+            <Link to="/technologies">Технологии</Link>
           </li>
           <li>
-            <a href="/contact">Контакты</a>
+            <Link to="/contacts">Контакты</Link>
           </li>
         </ul>
       </div>

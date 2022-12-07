@@ -1,15 +1,53 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import AboutUs from "./components/pages/AboutUs/AboutUs";
+import MainPage from "./components/pages/MainPage/MainPage";
+import Technologies from "./components/pages/Technologies/Technologies";
+import Contacts from "./components/pages/Contacts/Contacts";
+import Partners from "./components/pages/Partners/Partners";
+import Cooperation from "./components/pages/Cooperation/Cooperation";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainPage />,
+  },
+  {
+    path: "/about",
+    element: <AboutUs />,
+  },
+  {
+    path: "/technologies",
+    element: <Technologies />,
+  },
+  {
+    path: "/contacts",
+    element: <Contacts />,
+  },
+  {
+    path: "/partners",
+    element: <Partners />,
+  },
+  {
+    path: "/cooperation",
+    element: <Cooperation />,
+  },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<RouterProvider router={router} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

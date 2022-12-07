@@ -2,16 +2,13 @@
   text-align: center;
 }
 
-.app_main {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 100px;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+button {
+  border: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -1,0 +1,131 @@
+.partners_bg {
+  background: url("../images/par.png") no-repeat;
+  height: 1450px;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.partners_bg h1 {
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 200px;
+  text-align: center;
+  padding-top: 155px;
+  margin-bottom: 0;
+  line-height: 296px;
+}
+
+.join {
+  margin-top: 370px;
+  padding: 0 220px;
+}
+
+.join h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.join h5 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.partners_but {
+  display: flex;
+  justify-content: center;
+}
+
+.partners_but button {
+  width: 337px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 176.7%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
+  box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+.kons {
+  margin-top: 1500px;
+}
+
+.kons h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color: #003f06;
+}
+
+.kons_list {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.kons_partners {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.academic {
+  margin-top: 90px;
+}
+
+.academic h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color: #003f06;
+}
+
+.work_with_us h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color: #003f06;
+  margin-top: 90px;
+}
+
+.work_with_us button {
+  width: 337px;
+  height: 64px;
+  background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
+  box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 176.7%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.work_button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}

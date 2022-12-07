@@ -20,15 +20,25 @@
   justify-content: space-between;
 }
 
-.first-section {
+.first_section {
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.start_info {
+  width: 90%;
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* .second-section {
   position: relative;
 } */
 
-.second-section-image {
+.second_section_image {
   background: url("../images/second.png") no-repeat;
   position: absolute;
   background-size: cover;
@@ -39,7 +49,7 @@
   /* border-radius: 20px; */
 }
 
-.first-section-image {
+.first_section_image {
   background: url("../images/first.png") no-repeat;
   width: 881px;
   height: 389px;
@@ -47,7 +57,7 @@
   background-size: cover;
   /* background-position: center; */
   left: 0;
-  margin-top: 40px;
+  margin-top: 210px;
   border-radius: 20px !important;
 }
 
@@ -58,7 +68,7 @@
   display: flex;
 }
 
-.first-eko {
+.first_eko {
   background: url("../images/card_bg.png");
   height: 513px;
   width: 700px;
@@ -69,14 +79,14 @@
   background-size: contain;
 }
 
-.first-eko h2 {
+.first_eko h2 {
   padding-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
   padding-top: 35px;
 }
 
-.second-eko {
+.second_eko {
   background: url("../images/ecotechpark.png");
   height: 513px;
   width: 443px;
@@ -85,7 +95,7 @@
   background-size: contain;
 }
 
-.button-more {
+.button_more {
   background-color: #003f06;
   color: #fff;
   width: 246px;

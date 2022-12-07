@@ -1,0 +1,230 @@
+.background_image {
+  background: url("../images/about.png") no-repeat;
+  height: 900px;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.background_image h1 {
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 200px;
+  text-align: center;
+  padding-top: 155px;
+  margin-bottom: 0;
+  line-height: 296px;
+  /* letter-spacing: 0.14em; */
+}
+
+.second_image {
+  background: url("../images/image\ 14.png") no-repeat;
+
+  position: absolute;
+  background-size: cover;
+  width: 650px;
+  height: 733px;
+  /* background-position: center; */
+  right: 0;
+  /* border-radius: 20px; */
+}
+
+.first_image {
+  background: url("../images/Снимок\ экрана\ 2022-09-02\ в\ 17.02\ 1.png")
+    no-repeat;
+  width: 881px;
+  height: 389px;
+  position: absolute;
+  background-size: cover;
+  /* background-position: center; */
+  left: 0;
+  margin-top: 210px;
+  border-radius: 20px !important;
+}
+
+.technologies {
+  margin-top: 520px;
+}
+
+.tech_first {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.picture_info {
+  width: 30%;
+}
+
+.technologies h1 {
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.tech_first h3 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.tech_first h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  padding-top: 15px;
+}
+
+.first_tech_pic {
+  background-image: url("../images/1.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.second_tech_pic {
+  background-image: url("../images/2.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.third_tech_pic {
+  background-image: url("../images/3.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  border-color: black 1px solid;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fourth_tech_pic {
+  background-image: url("../images/4.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.fifth_tech_pic {
+  background-image: url("../images/5.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sixth_tech_pic {
+  background-image: url("../images/6.jpg");
+  width: 350px;
+  height: 360px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-position: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.e {
+  background-image: url("../images/Три\ э.png");
+  background-repeat: no-repeat;
+  height: 590.2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 75px;
+  background-position: center;
+}
+
+.join_us {
+  margin-top: 750px;
+  margin-bottom: 100px;
+}
+
+.join_us h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.stuff {
+  display: flex;
+  justify-content: center;
+  width: 84%;
+  margin: 0 auto;
+}
+
+.men {
+  width: 45%;
+  height: 453px;
+  box-shadow: 8px 9px 40px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.person_picture {
+  background-image: url("../images/young\ man\ standing\ and\ looking\ at\ his\ watch.jpg");
+  background-repeat: no-repeat;
+  height: 380px;
+  width: 30%;
+}
+
+.woman_picture {
+  background-image: url("../images/young\ woman\ standing\ and\ smiling.jpg");
+  background-repeat: no-repeat;
+  height: 380px;
+  width: 30%;
+}
+
+.person_info h2 {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+
+.person_info h5 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.men:nth-child(2) {
+  margin-left: 20px;
+}
+
+.join_button {
+  width: 84%;
+  margin-top: 40px;
+  height: 64px;
+  background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
+  box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 19px;
+  color: white;
+}
+
+.button_style {
+  display: flex;
+  justify-content: center;
+}
