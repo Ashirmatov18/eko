@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "../../../styles/AboutUs.css";
+import "../../../styles/AboutUs.css";
 
 export default function AboutInfo() {
   return (
     <div className="creation">
-      <div>
+      <div className="creation_title">
         <h1>
           Мы создаем зеленое будущее путем проектирования и <br /> реализации
           экологических проектов

@@ -1,7 +1,7 @@
 .contacts_bg {
   background: url("../images/image\ 13\ \(2\).png") no-repeat;
   height: 900px;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;
@@ -19,7 +19,6 @@
   padding-top: 155px;
   margin-bottom: 0;
   line-height: 296px;
-  /* letter-spacing: 0.14em; */
 }
 
 .contacts_but {
@@ -37,7 +36,6 @@
   font-size: 19px;
   line-height: 176.7%;
   color: white;
-  /* border: none; */
 }
 
 .search h1 {
@@ -53,7 +51,6 @@
 .map_info {
   display: flex;
   justify-content: center;
-  /* width: 90%; */
   align-items: center;
 }
 
@@ -154,8 +151,6 @@
   font-weight: 600;
   font-size: 19px;
   line-height: 176.7%;
-  /* identical to box height, or 34px */
-
   letter-spacing: 0.01em;
 
   color: #ffffff;

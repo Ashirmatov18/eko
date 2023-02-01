@@ -1,7 +1,7 @@
 .partners_bg {
   background: url("../images/par.png") no-repeat;
   height: 1450px;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;

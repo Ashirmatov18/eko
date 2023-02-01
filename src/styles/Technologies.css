@@ -1,13 +1,11 @@
 .tech_background {
   background: url("../images/image\ 13.png") no-repeat;
   height: 900px;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
-  /* right: 0; */
-  /* bottom: 0; */
 }
 
 .tech_background h1 {

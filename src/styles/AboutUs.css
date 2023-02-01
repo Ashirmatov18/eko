@@ -1,7 +1,7 @@
 .background_image {
   background: url("../images/about.png") no-repeat;
   height: 900px;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;
@@ -19,19 +19,15 @@
   padding-top: 155px;
   margin-bottom: 0;
   line-height: 296px;
-  /* letter-spacing: 0.14em; */
 }
 
 .second_image {
   background: url("../images/image\ 14.png") no-repeat;
-
   position: absolute;
   background-size: cover;
   width: 650px;
   height: 733px;
-  /* background-position: center; */
   right: 0;
-  /* border-radius: 20px; */
 }
 
 .first_image {
@@ -41,7 +37,6 @@
   height: 389px;
   position: absolute;
   background-size: cover;
-  /* background-position: center; */
   left: 0;
   margin-top: 210px;
   border-radius: 20px !important;
@@ -227,4 +222,198 @@
 .button_style {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1450px) {
+  .information {
+    flex-direction: column;
+  }
+  .first_section {
+    padding-top: 40px;
+    justify-content: space-between;
+  }
+
+  .first_image {
+    width: 100%;
+    margin-top: 0 !important;
+    height: 404px;
+  }
+  .second_image {
+    width: 100%;
+    height: 405px;
+  }
+  .start_info {
+    margin-top: 420px;
+    width: 80%;
+  }
+
+  .slider {
+    margin-top: 900px !important;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .tech_first {
+    padding: 0 30px;
+  }
+  .picture_info {
+    width: 28%;
+  }
+  .first_tech_pic {
+    width: 226px;
+    margin: 0 auto;
+    height: 232px;
+  }
+  .second_tech_pic {
+    width: 226px;
+    height: 232px;
+    margin: 0 auto;
+  }
+  .third_tech_pic {
+    width: 226px;
+    margin: 0 auto;
+    height: 232px;
+  }
+  .fourth_tech_pic {
+    width: 226px;
+    margin: 0 auto;
+    height: 232px;
+  }
+  .fifth_tech_pic {
+    width: 226px;
+    margin: 0 auto;
+    height: 232px;
+  }
+  .sixth_tech_pic {
+    width: 226px;
+    margin: 0 auto;
+    height: 232px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .men {
+    flex-direction: column;
+    height: 553px;
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .person_picture {
+    width: 50%;
+    background-position: center;
+  }
+  .woman_picture {
+    background-position: center;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 880px) {
+  .picture_info {
+    width: 220px;
+  }
+  .tech_first {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .e {
+    background-size: contain;
+    height: 300px;
+  }
+  .join_us {
+    margin-top: 450px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .stuff {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .men {
+    justify-content: center;
+    width: 80%;
+    margin: 15px auto !important;
+  }
+}
+@media only screen and (max-width: 610px) {
+  .background_image h1 {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .second_section_image {
+    height: 520px;
+    background-size: cover;
+  }
+
+  .first_image {
+    height: 220px;
+    background-size: cover;
+  }
+  .start_info {
+    margin-top: 240px;
+  }
+  .slider {
+    margin-top: 650px !important;
+  }
+  .e {
+    background: url("../images/Три\ э.jpg") no-repeat;
+    width: 100%;
+    height: 1200.2px;
+    background-size: cover;
+  }
+  .join_us {
+    margin-top: 1400px;
+  }
+  .technologies h1 {
+    font-size: 24px;
+  }
+  .tech_first h2 {
+    font-size: 21px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .picture_info {
+    width: 100%;
+  }
+  .creation_title {
+    padding: 0 20px;
+  }
+  .second_image {
+    margin-top: 25px;
+  }
+  .technologies h1 {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .e {
+    background-size: contain;
+    height: 1100px;
+  }
+  .background_image h1 {
+    font-size: 100px;
+  }
+  .join_us {
+    margin-top: 1200px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .join_us {
+    margin-top: 1050px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .join_us {
+    margin-top: 1000px;
+  }
 }

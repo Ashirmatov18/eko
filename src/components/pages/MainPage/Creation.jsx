@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../styles/Creation.css";
+import "../../../styles/Creation.css";
 
 export default function Creation() {
   return (
@@ -28,10 +28,7 @@ export default function Creation() {
           <div className="first_section_image"></div>
         </div>
         <div className="second_section">
-          <div
-            className="second_section_image
-            "
-          ></div>
+          <div className="second_section_image"></div>
         </div>
       </div>
 

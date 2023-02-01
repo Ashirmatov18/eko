@@ -1,13 +1,14 @@
-.background-image {
+.background_image_mp {
   background: url("../images/bg.png") no-repeat;
   height: 900px;
-  background-size: contain;
+  background-size: cover;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   right: 0;
   bottom: 0;
+  background-position: center;
 }
 
 .footer_main_page {

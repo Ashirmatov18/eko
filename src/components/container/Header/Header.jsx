@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../../../styles/Header.css";
 import logo from "../../../images/loco.png";
 import { BrowserRouter, Route, Link, NavLink } from "react-router-dom";
+import { clear } from "@testing-library/user-event/dist/clear";
 
 export default function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -41,7 +42,7 @@ export default function Header() {
             <Link to="/about">О нас</Link>
           </li>
           <li>
-            <a href="/eko">Эко Решения</a>
+            <a href="/ekopark">Эко Решения</a>
           </li>
           <li>
             <Link to="/technologies">Технологии</Link>

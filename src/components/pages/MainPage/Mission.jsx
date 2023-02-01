@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../styles/Mission.css";
+import "../../../styles/Mission.css";
 
 export default function Mission() {
   return (
@@ -20,8 +20,10 @@ export default function Mission() {
         <div className="invitation">
           <div className="invite_project">
             <h1>приглашаем присоединиться к проекту</h1>
-            <button className="first_button">Стать партнером</button>
-            <button className="first_button">Стать инвестором</button>
+            <div className="first_button_group">
+              <button className="first_button">Стать партнером</button>
+              <button className="first_button">Стать инвестором</button>
+            </div>
           </div>
           <div>
             <div className="invite_project">
@@ -52,6 +54,12 @@ export default function Mission() {
         <h1>новости</h1>
 
         <div className="main_news">
+          <div className="news_style">
+            <div className="image_news"></div>
+            <h2>Lorem ipsum</h2>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisc...</span>
+            <h4>Больше {`>`}</h4>
+          </div>
           <div className="news_style">
             <div className="image_news"></div>
             <h2>Lorem ipsum</h2>

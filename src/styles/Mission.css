@@ -41,9 +41,7 @@
   padding: 30px 100px;
   color: white;
 }
-/* .invite-project {
-  background-color: burlywood;
-} */
+
 .invite_project h1 {
   padding-bottom: 20px;
 }
@@ -183,6 +181,11 @@
 .news {
   position: absolute;
   width: 92%;
+  overflow-x: auto;
+  /* overflow: hidden; */
+  /* white-space: nowrap; */
+  flex-wrap: no-wrap;
+  right: 0;
 }
 
 .news h1 {
@@ -193,8 +196,6 @@
 }
 
 .main_news {
-  overflow-x: scroll;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
 
@@ -239,4 +240,136 @@
   font-size: 19px;
   color: #003f06;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1220px) {
+  .mission {
+    height: 820px;
+  }
+  .invitation {
+    flex-direction: column;
+  }
+
+  .invite_project h1 {
+    padding-top: 50px;
+  }
+  .partners {
+    padding-top: 800px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .invitation {
+    padding: 0 50px;
+  }
+  .invite_project h1 {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .first_button:nth-of-type(1) {
+    margin-right: 0 !important;
+  }
+  .first_button_group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .our_mission {
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  .partners_icons {
+    padding: 0 40px;
+  }
+  .eco {
+    width: 172px;
+    margin-right: 0;
+  }
+
+  .kg {
+    width: 172px;
+
+    margin-right: 0;
+  }
+
+  .jalal {
+    width: 172px;
+
+    margin-right: 0;
+  }
+
+  .bishkek {
+    width: 172px;
+
+    margin-right: 0;
+  }
+
+  .jal {
+    margin-right: 0;
+  }
+
+  .neftegaz {
+    width: 172px;
+    margin-right: 0;
+  }
+
+  .vnipi {
+    width: 172px;
+    margin-right: 0;
+  }
+
+  .vodokanal {
+    width: 172px;
+    margin-right: 0;
+  }
+
+  .te {
+    width: 172px;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .main_mission span {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .first_button_group {
+    justify-content: center;
+  }
+  .first_button:nth-of-type(1) {
+    margin-bottom: 25px;
+  }
+  .invite_project h1 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .our_mission {
+    font-size: 28px;
+  }
+  .main_mission span {
+    font-size: 15px;
+  }
+  .invite_project h1 {
+    font-size: 28px;
+  }
+  /* .news h1 {
+    font-size: 28px;
+  } */
+}
+
+@media only screen and (max-width: 420px) {
+  .partners_icons {
+    justify-content: center;
+  }
 }

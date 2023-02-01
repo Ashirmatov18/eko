@@ -2,7 +2,6 @@
   margin-top: 930px !important;
   color: #003f06;
   margin-bottom: 40px !important;
-  /* margin-left: 6%; */
 }
 
 .creation h1 {
@@ -34,19 +33,13 @@
   font-size: 18px;
 }
 
-/* .second-section {
-  position: relative;
-} */
-
 .second_section_image {
   background: url("../images/second.png") no-repeat;
   position: absolute;
   background-size: cover;
   width: 650px;
   height: 733px;
-  /* background-position: center; */
   right: 0;
-  /* border-radius: 20px; */
 }
 
 .first_section_image {
@@ -55,17 +48,17 @@
   height: 389px;
   position: absolute;
   background-size: cover;
-  /* background-position: center; */
   left: 0;
   margin-top: 210px;
   border-radius: 20px !important;
 }
 
 .slider {
-  margin-top: 550px;
+  margin-top: 550px !important;
   width: 1110px;
   height: 513px;
   display: flex;
+  margin: 0 auto;
 }
 
 .first_eko {
@@ -107,4 +100,75 @@
   font-size: 19px;
   margin-top: 35px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1450px) {
+  .information {
+    flex-direction: column;
+    /* margin-bottom: 1500px; */
+  }
+  .first_section {
+    padding-top: 40px;
+    justify-content: space-between;
+  }
+
+  .first_section_image {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .second_section_image {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .start_info {
+    margin-top: 420px;
+    width: 80%;
+  }
+
+  .slider {
+    margin-top: 900px !important;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .slider {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .second_section_image {
+    background-size: contain;
+  }
+
+  .first_section_image {
+    background-size: contain;
+  }
+  .start_info {
+    margin-top: 320px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .slider {
+    margin-top: 700px !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .second_section_image {
+    height: 520px;
+    background-size: cover;
+  }
+
+  .first_section_image {
+    height: 220px;
+    background-size: cover;
+  }
+  .start_info {
+    margin-top: 240px;
+  }
+  .slider {
+    margin-top: 650px !important;
+  }
 }

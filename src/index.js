@@ -18,6 +18,8 @@ import Technologies from "./components/pages/Technologies/Technologies";
 import Contacts from "./components/pages/Contacts/Contacts";
 import Partners from "./components/pages/Partners/Partners";
 import Cooperation from "./components/pages/Cooperation/Cooperation";
+import Garbage from "./components/pages/Garbage/Garbage";
+import EkoPark from "./components/pages/EkoPark/EkoPark";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
   {
     path: "/cooperation",
     element: <Cooperation />,
+  },
+  {
+    path: "/garbage",
+    element: <Garbage />,
+  },
+  {
+    path: "/ekopark",
+    element: <EkoPark />,
   },
 ]);
 

@@ -1,0 +1,768 @@
+.ekopark_bg {
+  background: url("../images/park.jpg") no-repeat;
+  height: 900px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.ekopark_bg h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 23px;
+  line-height: 34px;
+  /* identical to box height */
+  letter-spacing: 0.2em;
+  color: #fff;
+  text-align: center;
+  margin-top: 40%;
+}
+
+.main_ekopark {
+  margin-top: 970px;
+}
+
+.main_ekopark h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  /* основной цвет */
+  color: #003f06;
+}
+
+.threat {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.threat_block {
+  width: 44%;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.threat h2 {
+  font-family: "Uncial Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: -0.02em;
+  color: #003f06;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.threat h5 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #003f06;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.threat span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* основной цвет */
+
+  color: #003f06;
+}
+
+.project_decision {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_project_decision {
+  width: 48%;
+  padding-left: 7%;
+  padding-top: 90px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+  /* margin-right: 70px; */
+}
+
+.second_project_decision {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 48%;
+  margin-top: 30px;
+}
+
+.second_project_decision button {
+  width: 80%;
+  height: 75px;
+  border-radius: 253px;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/sadsads.jpg");
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  box-shadow: 0px 8px 29px rgba(0, 63, 6, 0.18);
+  margin: auto;
+  /* margin-bottom: 70px !important; */
+  /* background: #000000; */
+}
+
+.vector {
+  background-image: url("../images/Vector\ 7.svg");
+  height: 21px;
+  width: 40px;
+  margin: 20px auto;
+}
+
+.opp {
+  width: 100%;
+  height: 440px;
+  margin-top: 150px;
+  position: absolute;
+  left: 0;
+  background-color: black;
+  padding-top: 100px;
+  color: #ffffff;
+  /* margin-bottom: 100px; */
+}
+
+.eko_facilities {
+  display: flex;
+  justify-content: center;
+}
+
+.facilities {
+  width: 25%;
+  text-align: center;
+  margin-right: 15px;
+  position: relative;
+  overflow-x: auto;
+  margin-top: 40px;
+}
+
+.facilities h4 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.facilities p {
+  font-family: "Uncial Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 158px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.18);
+  position: absolute;
+  bottom: -65px;
+  left: -20px;
+}
+
+.facilities span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.implementation {
+  margin-top: 800px;
+}
+
+.ga {
+  display: flex;
+  justify-content: right;
+  /* position: relative; */
+}
+
+.ga_bg {
+  background: url("../images/Эко_Технопарк_Бишкек_версия_для_распечатки1024_7\ 1.jpg")
+    no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 491px;
+  left: 0;
+}
+
+.ga_bg_info {
+  width: 45%;
+}
+
+.ga_bg_info h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+  padding-top: 150px;
+}
+
+.ga_bg_info span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.center {
+  background: url("../images/Снимок\ экрана\ 2022-09-13\ в\ 13.18\ 1.jpg");
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 473px;
+  margin-top: 250px;
+}
+
+.center h1 {
+  color: #ffffff;
+}
+
+.center_info {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.center_blocks {
+  width: 25%;
+}
+
+.center h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.left {
+  background: url("../images/left.svg");
+  width: 126px;
+  height: 92px;
+  margin-left: 70%;
+}
+
+.bottom {
+  background: url("../images/center.svg");
+  width: 42.5px;
+  height: 99px;
+  margin: auto;
+}
+
+.right {
+  background: url("../images/right.svg");
+  width: 126px;
+  height: 92px;
+  margin: 0;
+}
+
+.production {
+  margin-top: 800px;
+}
+
+.area_develop {
+  margin-top: 200px;
+}
+
+.production_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.production_bg {
+  background: url("../images/bnnbb.jpg");
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: 433px;
+}
+
+.production_bg_info {
+  width: 50%;
+  text-align: center;
+}
+
+.production h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.production span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.image_list {
+  margin-top: 150px;
+}
+
+.first_image_list {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-left: 100px;
+}
+
+.image_list_card {
+  text-align: center;
+  width: 310px;
+  margin-right: 20px;
+}
+
+.image_list_img {
+  width: 300px;
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.29));
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.image_list_id {
+  z-index: 999;
+  position: absolute;
+  font-family: "Uncial Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 158px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  bottom: -60px;
+  left: -20px;
+}
+
+.image_list_desc {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+}
+
+.agro {
+  display: flex;
+  justify-content: right !important;
+  flex-wrap: wrap;
+}
+
+.first_agro {
+  background: url("../images/image\ 37.jpg");
+  width: 50%;
+  height: 433px;
+  filter: drop-shadow(0px 8px 29px rgba(0, 63, 6, 0.18));
+  border-radius: 0px 22px 22px 0px;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second_agro {
+  width: 45%;
+  text-align: center;
+}
+
+.second_agro span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.reconstruction {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first_rec {
+  width: 45%;
+  text-align: center;
+}
+
+.second_rec {
+  background: url("../../src/images/Эко_Технопарк_Бишкек_версия_для_распечатки1024_12\ 1.jpg");
+  filter: drop-shadow(0px 8px 29px rgba(0, 63, 6, 0.18));
+  border-radius: 22px 0px 0px 22px;
+  height: 542px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+.first_rec h1 {
+  font-size: 50px !important;
+}
+
+.taken_production {
+  display: flex;
+}
+
+.image_list_description {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.behaviours {
+  background: url("../images/Frame\ 54.jpg");
+  width: 100%;
+  height: 941.08px;
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  background-position: center;
+}
+
+.results_pos {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  position: absolute;
+  width: 90%;
+  flex-wrap: nowrap;
+  right: 0;
+}
+
+.results_card {
+  width: 350px;
+  height: 283px;
+  background: url("../images/image\ 35.jpg");
+  margin-right: 50px;
+  border-radius: 15px;
+  padding: 25px 15px 0;
+  text-align: center;
+  position: relative;
+}
+
+.results_img {
+  width: 40%;
+  height: 50%;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-color: transparent;
+}
+
+.investment {
+  width: 100%;
+  position: absolute;
+  background: url("../images/Frame\ 162.jpg");
+  height: 516px;
+  background-position: center;
+  margin-top: 430px;
+  left: 0;
+}
+
+.profitability {
+  display: flex;
+  justify-content: right;
+}
+
+.first_profit {
+  position: absolute;
+  left: 0;
+  background: url("../images/Frame\ 163.jpg");
+  width: 50%;
+  height: 545px;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.second_profit {
+  width: 50%;
+  text-align: center;
+}
+
+.second_profit span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.second_profit h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+  padding-top: 150px;
+}
+
+.main_graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.graph_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 0px 20px;
+  width: 100%;
+  height: 117px;
+  box-shadow: 0px 8px 29px rgba(0, 63, 6, 0.18);
+  border-radius: 29px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+}
+
+.big_card_graph {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 20px 0px;
+  width: 100%;
+  height: 265px;
+  box-shadow: 0px 8px 29px rgba(0, 63, 6, 0.18);
+  border-radius: 29px;
+  text-align: center;
+}
+
+.big_card_graph h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+  margin-top: 0;
+}
+
+.big_card_graph span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+@media only screen and (max-width: 1450px) {
+  .ga_bg {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .ekopark_bg h3 {
+    margin-top: 60%;
+  }
+  .taken_production {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .center_info {
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+  .center h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .center {
+    margin-top: 50px;
+  }
+  .facilities {
+    width: 30%;
+    margin-top: 0;
+  }
+  .eko_facilities {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .ga {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .ga_bg {
+    width: 100%;
+  }
+  .ga_bg_info {
+    width: 80%;
+    margin-top: 350px;
+    text-align: center;
+    /* padding: 0 10px; */
+    margin: 350px auto 0 auto;
+  }
+  .production {
+    margin-top: 600px;
+  }
+
+  .production_area {
+    flex-direction: column;
+  }
+  .production h3 {
+    padding-top: 40px;
+  }
+  .production_bg_info {
+    width: 100%;
+  }
+  .production_bg {
+    width: 100%;
+    margin-top: 200px;
+  }
+  .area_develop {
+    margin-top: 500px;
+  }
+  .agro {
+    justify-content: space-between;
+  }
+  .first_agro {
+    width: 100%;
+  }
+  .second_agro {
+    width: 100%;
+    margin-top: 350px;
+  }
+  .reconstruction_title {
+    margin-top: 50px !important;
+  }
+  .first_rec {
+    width: 100%;
+    text-align: center;
+  }
+  .second_rec {
+    width: 100%;
+    margin-top: 500px;
+  }
+  .tech_title {
+    margin-top: 700px !important;
+  }
+  .behaviours {
+    background: url("../images/bgbg.jpg");
+    background-repeat: repeat-y;
+    height: 1121.08px;
+    background-size: contain;
+    /* background-position: center;
+    background-color: transparent; */
+  }
+  .results_title {
+    margin-top: 1250px;
+  }
+  .investment {
+    background: url("../images/iiiii.jpg");
+    height: 548px;
+    background-size: cover;
+  }
+  .profitability {
+    justify-content: space-between;
+  }
+  .first_profit {
+    width: 100%;
+  }
+  .second_profit {
+    width: 100%;
+    margin-top: 450px;
+  }
+}

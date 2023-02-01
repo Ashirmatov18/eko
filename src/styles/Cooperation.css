@@ -7,6 +7,7 @@
   width: 100%;
   right: 0;
   bottom: 0;
+  background-size: cover;
 }
 
 .coop_bg h1 {
@@ -18,14 +19,12 @@
   padding-top: 155px;
   margin-bottom: 0;
   line-height: 296px;
-  /* padding-top: 20px; */
 }
 
 .coop_bg h3 {
   font-weight: 200;
   font-size: 18px;
   line-height: 34px;
-  /* identical to box height */
   letter-spacing: 0.2em;
   color: #ffffff;
   text-align: center;
@@ -53,7 +52,6 @@
 
 .global {
   margin-top: 980px;
-  /* position: relative; */
 }
 
 .global h1 {
