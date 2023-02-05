@@ -643,9 +643,52 @@
   color: #003f06;
 }
 
+.center_mobile {
+  background: url("../images/Снимок\ экрана\ 2022-09-13\ в\ 13.18\ 1.jpg");
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 473px;
+  margin-top: 70px;
+  display: none;
+  color: white;
+}
+
+.center_mobile h1 {
+  color: #ffffff;
+  padding-top: 40px;
+}
+.center_mobile_blocks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mobile_vector {
+  background: url("../images/Vector\ 6.svg");
+  width: 32px;
+  height: 18px;
+  margin: 0 auto;
+}
+.center_mobile h3 {
+  text-align: center;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 31px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 1450px) {
   .ga_bg {
     width: 50%;
+  }
+  .first_image_list {
+    overflow-x: auto;
+    margin-left: 0;
+    width: 100%;
   }
 }
 
@@ -666,9 +709,15 @@
   .center h3 {
     font-size: 20px;
   }
+  .ekopark_bg h3 {
+    margin-top: 80%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
+  .ekopark_bg h3 {
+    margin-top: 90%;
+  }
   .center {
     margin-top: 50px;
   }
@@ -713,7 +762,7 @@
     margin-top: 200px;
   }
   .area_develop {
-    margin-top: 500px;
+    margin-top: 100px;
   }
   .agro {
     justify-content: space-between;
@@ -741,19 +790,20 @@
   }
   .behaviours {
     background: url("../images/bgbg.jpg");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     height: 1121.08px;
     background-size: contain;
     /* background-position: center;
     background-color: transparent; */
   }
   .results_title {
-    margin-top: 1250px;
+    margin-top: 1250px !important;
   }
   .investment {
     background: url("../images/iiiii.jpg");
     height: 548px;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   .profitability {
     justify-content: space-between;
@@ -764,5 +814,185 @@
   .second_profit {
     width: 100%;
     margin-top: 450px;
+  }
+  .graph_title {
+    margin-top: 20px !important;
+  }
+  .big_card_graph {
+    height: auto;
+  }
+  .first_image_list {
+    margin-top: 550px;
+  }
+  .image_list_img {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .threat {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .threat_block {
+    width: 80%;
+    margin: 0 0 auto 30px;
+    padding: 0 30px;
+  }
+  .project_decision {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .first_project_decision {
+    padding-left: 0;
+    width: 100%;
+  }
+  .second_project_decision {
+    width: auto;
+  }
+  .opp {
+    /* flex-direction: column; */
+    height: 700px;
+  }
+  .eko_facilities {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .facilities {
+    width: 100%;
+    margin-right: 0 !important;
+  }
+  .implementation {
+    margin-top: 1000px;
+  }
+  .center {
+    display: none;
+  }
+  .center_mobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .results_title {
+    margin-top: 1150px !important;
+  }
+  .second_rec {
+    margin-top: 570px;
+  }
+  .production_bg {
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .results_title {
+    margin-top: 1050px !important;
+  }
+  .first_profit {
+    background: url("../images/monii.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .investment {
+    background: url("../images/mobi.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+  }
+  .tech_title {
+    margin-top: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .results_title {
+    margin-top: 850px !important;
+  }
+  .production_bg {
+    margin-top: 300px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .behaviours {
+    background: url("../images/mob.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 1540.75px;
+    background-repeat: no-repeat;
+  }
+  .results_title {
+    margin-top: 1750px !important;
+  }
+  .main_ekopark h1 {
+    font-size: 24px;
+  }
+  .opp {
+    margin-top: 80px;
+  }
+  .threat_block {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .ekopark_bg h3 {
+    margin-top: 170%;
+  }
+  .ekopark_bg {
+    background: url("../images/mobile\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 813px;
+    background-position: center;
+  }
+  .second_rec {
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+  .tech_title {
+    margin-top: 350px !important;
+  }
+  .main_ekopark {
+    margin-top: 870px;
+  }
+  .first_project_decision {
+    padding-top: 20px;
+  }
+  .implementation {
+    margin-top: 900px;
+  }
+  .production h3 {
+    padding-top: 0;
+  }
+  .production_bg {
+    margin-top: 250px;
+    background-clip: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  .area_develop {
+    margin-top: 70px;
+  }
+  .investment {
+    margin-top: 380px;
+  }
+  .title_profit {
+    margin-top: 950px !important;
+  }
+  .second_profit h3 {
+    padding-top: 20px;
+  }
+  .first_agro {
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+  .second_agro h3 {
+    padding-top: 0 !important;
   }
 }

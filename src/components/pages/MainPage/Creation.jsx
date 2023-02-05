@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/Creation.css";
+import Sliders from "../../js/Sliders";
 
 export default function Creation() {
   return (
@@ -32,31 +33,7 @@ export default function Creation() {
         </div>
       </div>
 
-      <div className="slider">
-        <div className="first_eko">
-          <h2>Экотехнопарк</h2>
-          <div>
-            <span style={{ fontSize: "18px" }}>
-              <strong>
-                Создание полностью автономного инновационного Экотехнопарка и
-                Агропромышленного комплекса
-              </strong>{" "}
-              <br /> <br />
-            </span>
-            <span style={{ fontSize: "15px" }}>
-              Проект предусматривает реализацию экологическим консорциумом ОсОО
-              «Эко Решения», ООО «НПО «ОМЕГА» и ПЭУ «Бишкекводоканал»
-            </span>
-          </div>
-          <button
-            className="button_more
-          "
-          >
-            Узнать больше
-          </button>
-        </div>
-        <div className="second_eko"></div>
-      </div>
+      <Sliders id="slider_id" />
     </div>
   );
 }

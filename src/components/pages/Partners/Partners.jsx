@@ -1,9 +1,29 @@
 import React from "react";
-import styles from "../../../styles/Partners.css";
+import "../../../styles/Partners.css";
 import Header from "../../container/Header/Header";
 import MainLayout from "../../MainLayout";
 import firstKons from "../../../images/image 34.jpg";
 import Footer from "../../container/Footer/Footer";
+import partnerIcons from "../../js/partner";
+
+const icons = [
+  {
+    id: 1,
+    image: "/image 34.svg",
+  },
+  {
+    id: 2,
+    image: "/image 28.svg",
+  },
+  {
+    id: 3,
+    image: "/image 29.svg",
+  },
+  {
+    id: 4,
+    image: "/image 30.svg",
+  },
+];
 
 export default function Partners() {
   return (
@@ -34,10 +54,24 @@ export default function Partners() {
       <div className="kons">
         <h1>Компании в составе консорциума</h1>
         <div className="kons_list">
+          {/* <div className="kons_list"> */}
+          {/* <img src={firstKons} alt="" className="kons_partners" />
           <img src={firstKons} alt="" className="kons_partners" />
           <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
+          <img src={firstKons} alt="" className="kons_partners" /> */}
+          {!!icons && icons.length > 0 ? (
+            icons.map((icon) => {
+              return (
+                <img
+                  key={icon.id}
+                  src={icon.image}
+                  className="kons_partners"
+                ></img>
+              );
+            })
+          ) : (
+            <></>
+          )}
         </div>
       </div>
 
@@ -54,14 +88,20 @@ export default function Partners() {
       <div className="academic">
         <h1>Официальные партнеры</h1>
         <div className="kons_list">
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
-          <img src={firstKons} alt="" className="kons_partners" />
+          {!!partnerIcons && partnerIcons.length > 0 ? (
+            partnerIcons.map((partner) => {
+              return (
+                <img
+                  key={partner.id}
+                  src={partner.img}
+                  alt=""
+                  className="kons_partners"
+                />
+              );
+            })
+          ) : (
+            <></>
+          )}
         </div>
       </div>
 

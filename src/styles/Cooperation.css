@@ -31,7 +31,7 @@
   margin-top: 0;
 }
 
-.coop_bg button {
+.coop_but button {
   background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
   box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
   border-radius: 13px;
@@ -76,7 +76,7 @@
   margin-right: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   background-position: center;
   margin-top: 30px;
   margin-bottom: 100px;
@@ -106,7 +106,7 @@
   letter-spacing: 0.01em;
 }
 .coop_picture {
-  background-image: url("../images/image\ 41.jpg");
+  /* background-image: url("../images/image\ 41.jpg"); */
   height: 206px;
   width: 100%;
   background-position: center;
@@ -114,6 +114,7 @@
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
   padding-bottom: 0;
+  background-repeat: no-repeat;
 }
 
 .coop_partners {
@@ -126,4 +127,30 @@
   font-weight: 700;
   font-size: 36px;
   color: #003f06;
+}
+
+.title_recall {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #003f06;
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .global_coop {
+    position: relative;
+    overflow-x: auto;
+    width: 100vw;
+  }
+  .global_adv {
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .coop_bg h1 {
+    font-size: 80px;
+  }
 }

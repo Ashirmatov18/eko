@@ -161,3 +161,41 @@
   padding-top: 300px;
   margin-top: 420px;
 }
+@media only screen and (max-width: 1200px) {
+  .contacts_bg h1 {
+    font-size: 120px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .map_info {
+    align-items: normal;
+    flex-direction: column;
+  }
+  .address_info {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .contacts_bg h1 {
+    font-size: 80px;
+  }
+  .map {
+    width: auto;
+    height: 530px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .contacts_bg h1 {
+    font-size: 70px;
+  }
+  .map {
+    width: auto;
+    height: 430px;
+  }
+  .message {
+    padding: 40px 40px;
+  }
+}

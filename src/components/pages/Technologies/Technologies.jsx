@@ -41,7 +41,10 @@ export default function Technologies() {
           </div>
         </div>
 
-        <h1 style={{ marginTop: "400px", marginBottom: "50px" }}>
+        <h1
+          className="innovation_title"
+          style={{ marginTop: "400px", marginBottom: "50px" }}
+        >
           Инновационные технологии
         </h1>
         <div className="innovation">
@@ -59,7 +62,10 @@ export default function Technologies() {
           </div>
         </div>
 
-        <h1 style={{ marginTop: "100px", marginBottom: "50px" }}>
+        <h1
+          className="advantage_title"
+          style={{ marginTop: "100px", marginBottom: "50px" }}
+        >
           Преимущества
         </h1>
         <div className="processing">
@@ -84,7 +90,7 @@ export default function Technologies() {
         </div>
       </div>
 
-      <Footer style={{ marginTop: "400px" }} />
+      <Footer style={{ marginTop: "400px" }} id="footer_tech" />
     </MainLayout>
   );
 }

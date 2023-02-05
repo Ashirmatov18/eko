@@ -79,7 +79,7 @@
 .kons_list {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -128,4 +128,49 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .partners_bg h1 {
+    font-size: 120px;
+  }
+  .join {
+    padding: 0 100px;
+    margin-top: 220px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .partners_bg h1 {
+    font-size: 80px;
+  }
+  .join {
+    padding: 0 50px;
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .kons_list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .join {
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+  .join h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .kons_list {
+    width: 90%;
+  }
+  .partners_bg h1 {
+    font-size: 60px;
+  }
 }

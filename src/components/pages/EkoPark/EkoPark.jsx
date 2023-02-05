@@ -174,6 +174,24 @@ export default function EkoPark() {
             </div>
           </div>
 
+          <div className="center_mobile">
+            <h1>Центры Экр</h1>
+            <div className="center_mobile_blocks">
+              <div className="mobile_vector"></div>
+              <div>
+                <h3>Производственно-испытательный центр ЭКР</h3>
+              </div>
+              <div className="mobile_vector"></div>
+              <div>
+                <h3>Научно-технический </h3>
+              </div>
+              <div className="mobile_vector"></div>
+              <div>
+                <h3>Выставочный</h3>
+              </div>
+            </div>
+          </div>
+
           <div className="production">
             <h1>Производственная площадка развития</h1>
 
@@ -189,7 +207,7 @@ export default function EkoPark() {
               <div className="production_bg"></div>
             </div>
 
-            {/* <div className="image_list">
+            <div className="image_list">
               <div className="first_image_list">
                 {!!image && image.length > 0
                   ? image.map((product) => {
@@ -209,7 +227,7 @@ export default function EkoPark() {
                     })
                   : ""}
               </div>
-            </div> */}
+            </div>
 
             <h1 className="area_develop">Площадка по развитию агротуризма </h1>
 
@@ -290,9 +308,8 @@ export default function EkoPark() {
                           <span>{cards.text}</span>
                           {!!cards.img ? (
                             <img
-                              style={{ background: `url(${cards.img})` }}
+                              style={{ backgroundImage: `url(${cards.img})` }}
                               className="results_img"
-                              alt="cards_img"
                             />
                           ) : (
                             <></>
@@ -305,7 +322,10 @@ export default function EkoPark() {
             </div>
           </div>
           <div className="investment"></div>
-          <h1 style={{ marginTop: "1050px" }}> Окупаемость</h1>
+          <h1 className="title_profit" style={{ marginTop: "1050px" }}>
+            {" "}
+            Окупаемость
+          </h1>
           <div className="profitability">
             <div className="first_profit"></div>
             <div className="second_profit">
@@ -320,7 +340,9 @@ export default function EkoPark() {
             </div>
           </div>
 
-          <h1 style={{ marginTop: "250px" }}>График работ</h1>
+          <h1 className="graph_title" style={{ marginTop: "250px" }}>
+            График работ
+          </h1>
           <div className="main_graph">
             <div className="graph_card">
               <h2>

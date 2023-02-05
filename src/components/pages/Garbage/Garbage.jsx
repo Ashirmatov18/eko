@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "../../../styles/Garbage.css";
+import "../../../styles/Garbage.css";
 import Footer from "../../container/Footer/Footer";
 import Header from "../../container/Header/Header";
 import MainLayout from "../../MainLayout";
+import Sliders from "../../js/Sliders";
 
 export default function Garbage() {
   return (
@@ -189,8 +190,8 @@ export default function Garbage() {
           </div>
         </div>
       </div>
-
-      <Footer />
+      <Sliders />
+      {/* <Footer /> */}
     </MainLayout>
   );
 }
