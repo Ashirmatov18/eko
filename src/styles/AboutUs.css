@@ -246,10 +246,6 @@
     margin-top: 420px;
     width: 80%;
   }
-
-  .slider {
-    margin-top: 900px !important;
-  }
 }
 
 @media only screen and (max-width: 1110px) {
@@ -358,9 +354,7 @@
   .start_info {
     margin-top: 240px;
   }
-  .slider {
-    margin-top: 650px !important;
-  }
+
   .e {
     background: url("../images/Три\ э.jpg") no-repeat;
     width: 100%;

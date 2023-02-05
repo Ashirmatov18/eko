@@ -109,7 +109,7 @@ article h4 {
   fill: white;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .text {
     max-width: 45em;
   }
@@ -119,7 +119,7 @@ article h4 {
     height: 2rem;
     font-size: 1.5rem;
   }
-}
+} */
 
 .slider_section {
   overflow: hidden;
@@ -255,5 +255,15 @@ article h4 {
   }
   .slider_section {
     height: 613px;
+  }
+  .section {
+    margin-bottom: 0;
+  }
+  .slider {
+    margin-right: 0 !important;
+    width: 100%;
+  }
+  .section {
+    width: 100%;
   }
 }

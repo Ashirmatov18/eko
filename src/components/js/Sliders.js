@@ -53,8 +53,8 @@ export default function Sliders(props) {
 
   return (
     <div>
-      <section className="section" {...props}>
-        <div className="slider_section">
+      <section className="section">
+        <div className="slider_section" {...props}>
           {slide.map((item, indexItem) => {
             const { id, title, image, text, info } = item;
             let position = "nextSlide";

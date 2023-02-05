@@ -361,15 +361,21 @@
     font-size: 15px;
   }
   .invite_project h1 {
-    font-size: 28px;
+    font-size: 25px;
   }
   /* .news h1 {
     font-size: 28px;
   } */
+  .main_mission {
+    margin-top: 0;
+  }
 }
 
 @media only screen and (max-width: 420px) {
   .partners_icons {
     justify-content: center;
+  }
+  .invite_project {
+    padding-top: 15px;
   }
 }

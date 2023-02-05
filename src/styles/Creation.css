@@ -81,7 +81,7 @@
   }
 
   #slider_id {
-    margin-top: 900px !important;
+    margin-top: 900px;
   }
 }
 
@@ -124,6 +124,6 @@
     margin-top: 240px;
   }
   #slider_id {
-    margin-top: 650px !important;
+    margin-top: 570px !important;
   }
 }
