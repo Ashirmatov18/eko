@@ -75,9 +75,14 @@
   transform-origin: bottom left;
 }
 
+.close {
+  display: none;
+  color: black;
+}
+
 @media only screen and (max-width: 1100px) {
   .brand-name {
-    margin-left: 1rem;
+    margin-left: 1rem !important;
   }
 }
 
@@ -85,17 +90,32 @@
   .hamburger {
     display: block;
   }
+  .close {
+    display: block;
+    padding: 35px 0;
+  }
+  .navigation {
+    /* width: 70%; */
+    right: 0;
+    /* height: 80%; */
+    overflow: visible;
+  }
+  .navigation-menu {
+    margin-right: 350px;
+  }
 
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 60px);
+    top: 0;
+    right: 0;
+    width: 70%;
+    /* height: calc(100vh - 60px); */
     background-color: white;
     border-top: 1px solid black;
     display: none;
+    margin-top: 0;
+    border-radius: 20px;
   }
 
   .navigation-menu li {
@@ -106,7 +126,7 @@
   .navigation-menu li a {
     color: black;
     width: 100%;
-    padding: 1.5rem 0;
+    padding-bottom: 45px;
   }
 
   .navigation-menu li:hover {

@@ -38,6 +38,14 @@ export default function Header() {
         }
       >
         <ul>
+          <li
+            className="close"
+            onClick={() => {
+              setIsNavExpanded(!isNavExpanded);
+            }}
+          >
+            close
+          </li>
           <li>
             <Link to="/about">О нас</Link>
           </li>
