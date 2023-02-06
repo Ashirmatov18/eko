@@ -1,0 +1,191 @@
+.uap_bg {
+  background: url("../images/uap.jpg") no-repeat;
+  height: 950px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+}
+
+.uap_bg h1 {
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 200px;
+  text-align: center;
+  padding-top: 220px;
+  margin-bottom: 0;
+  line-height: 148px;
+}
+
+.uap_bg h3 {
+  font-size: 23px;
+  line-height: 34px;
+  margin-top: 0;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.uap_title {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+}
+
+.production_bg_uap {
+  background: url("../images/mmmm.jpg");
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: 426px;
+  background-position: center;
+  border-radius: 35px !important;
+  background-repeat: no-repeat;
+}
+
+.production_bg_info_u {
+  width: 50%;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.uap_bg_picture {
+  background: url("../images/uu.jpg");
+  height: 502px;
+  width: 730px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.first_uap_info {
+  background: url("../images/image\ 16.jpg");
+  width: 380px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background-size: cover;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+  background-position: center;
+  position: relative;
+}
+
+.garbage_slide_uap {
+  width: 1110px;
+  height: 502px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.work_energy {
+  margin-top: 90px;
+}
+
+.work_text {
+  padding: 0 30px;
+}
+
+#footer_uap {
+  margin-top: 400px;
+}
+
+@media screen and (max-width: 1100px) {
+  .garbage_slide_uap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .production_bg_info_u {
+    padding-top: 90px;
+    text-align: start;
+    padding-left: 15px;
+    width: 45%;
+  }
+  .uap_slider {
+    margin-top: 200px;
+  }
+  .garbage_slide_uap {
+    height: auto;
+  }
+  .uap_bg_picture {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .garbage_slide_uap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .production_bg_uap {
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0;
+    width: 100%;
+  }
+  .production_bg_info_u {
+    width: 80%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  .uap_bg h1 {
+    font-size: 150px;
+  }
+  .uap_slider {
+    margin-top: 20px;
+  }
+  .garbage_slide_uap {
+    flex-direction: column;
+    height: auto;
+  }
+  .uap_bg_picture {
+    width: auto;
+    height: 250px;
+    background-size: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 25px;
+    background-position: center;
+  }
+  .first_uap_info {
+    width: 90%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+  }
+  .uap_title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .first_uap_info {
+    padding-left: 20px;
+    padding-right: 18px;
+  }
+  .production_bg_uap {
+    height: 250px;
+  }
+  #footer_uap {
+    margin-top: 0;
+  }
+}

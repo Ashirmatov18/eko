@@ -1,0 +1,216 @@
+.green_bg {
+  background: url("../images/zel.jpg") no-repeat;
+  height: 950px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+}
+
+.green_bg h1 {
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 220px;
+  margin-bottom: 0;
+  line-height: 148px;
+}
+
+.green_bg h3 {
+  font-size: 23px;
+  line-height: 34px;
+  margin-top: 0;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.conversion {
+  margin-top: 1000px;
+}
+
+.first_bg_picture {
+  background: url("../images/ccc.jpg");
+  height: 502px;
+  width: 730px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.conversion_bg_picture {
+  background: url("../images/conva.jpg");
+  height: 502px;
+  width: 730px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.first_conversion_info {
+  background: url("../images/image\ 16.jpg");
+  width: 380px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-size: cover;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+  background-position: center;
+  position: relative;
+}
+
+.slide_number {
+  position: relative !important;
+  padding: 0 !important;
+}
+
+.first_uap_info p {
+  position: absolute;
+  left: -20px;
+  top: -50px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 200px;
+  line-height: 263px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 63, 6, 0.19);
+  z-index: 9999;
+}
+
+.first_green {
+  /* overflow-x: auto; */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-size: cover;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+  background-position: center;
+  position: relative;
+}
+
+#green_footer {
+  margin-top: 200px;
+}
+
+@media screen and (max-width: 1100px) {
+  .garbage_slide_uap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .production_bg_info_u {
+    padding-top: 90px;
+    text-align: start;
+    padding-left: 15px;
+    width: 45%;
+  }
+  .uap_slider {
+    margin-top: 200px;
+  }
+  .garbage_slide_uap {
+    height: auto;
+  }
+  .uap_bg_picture {
+    height: auto;
+  }
+  .conversion_bg_picture {
+    height: auto;
+  }
+  .green_bg h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .garbage_slide_uap {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .production_bg_uap {
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 0;
+    width: 100%;
+  }
+  .production_bg_info_u {
+    width: 80%;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .uap_slider {
+    margin-top: 20px;
+  }
+  .garbage_slide_uap {
+    flex-direction: column;
+    height: auto;
+  }
+  .first_bg_picture {
+    width: auto;
+    height: 250px;
+    background-size: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 25px;
+    background-position: center;
+  }
+  .conversion_bg_picture {
+    width: auto;
+    height: 250px;
+    background-size: auto;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 25px;
+    background-position: center;
+  }
+  .first_conversion_info {
+    width: 90%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20px;
+  }
+  .uap_title {
+    font-size: 24px;
+  }
+  .green_bg h1 {
+    font-size: 40px;
+    line-height: 70px;
+  }
+  .green_bg h3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .first_conversion_info {
+    padding-left: 20px;
+    padding-right: 18px;
+  }
+  .production_bg_uap {
+    height: 250px;
+  }
+  #green_footer {
+    margin-top: 50px;
+  }
+  .first_green {
+    text-align: center;
+    padding-bottom: 35px;
+  }
+}

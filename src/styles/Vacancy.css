@@ -1,0 +1,332 @@
+.vacancy_bg {
+  background: url("../images/vac.jpg") no-repeat;
+  height: 950px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+}
+
+.vacancy_bg h1 {
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 220px;
+  margin-bottom: 0;
+  line-height: 148px;
+}
+
+.vacancy_bg h3 {
+  font-size: 23px;
+  line-height: 34px;
+  margin-top: 0;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.vacancy_production {
+  margin-top: 1000px;
+  margin-bottom: 250px;
+}
+
+.vacancy_production h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #003f06;
+}
+
+.production_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.production_bg_v {
+  background: url("../images/vvvv.jpg");
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: 677px;
+  background-position: center;
+  border-radius: 35px !important;
+}
+
+.production_bg_info_v {
+  width: 40%;
+  text-align: center;
+  padding-top: 170px;
+}
+
+.vacancy_production span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.philosophy h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #003f06;
+}
+
+.philosophy_info {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.philosophy_info h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+}
+
+.philosophy_info span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #003f06;
+}
+
+.philosophy_block {
+  padding-right: 25px;
+  position: relative;
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.phil_id {
+  z-index: 999;
+  position: absolute;
+  font-family: "Uncial Antiqua";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 158px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 63, 6, 0.09);
+  bottom: -50px;
+  left: -20px;
+  overflow: auto;
+}
+
+.philosophy_button {
+  background: linear-gradient(93.82deg, #003f06 13.82%, #006d0b 96.11%);
+  box-shadow: 5px 5px 20px rgba(1, 63, 7, 0.23);
+  border-radius: 13px;
+  height: 64px;
+  width: 100%;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 176.7%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.perspective h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #003f06;
+  margin-top: 145px;
+}
+
+.perspective_cards {
+  display: flex;
+  justify-content: center;
+}
+
+.global_adv_v {
+  width: 445px;
+  box-shadow: 0px 8px 29px rgba(0, 63, 6, 0.18);
+  border-radius: 18px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding-bottom: 0;
+}
+
+.global_info_v {
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003f06;
+  padding: 10px 50px;
+}
+
+.global_info_v h4 {
+  font-size: 12px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.coop_picture_v {
+  background-image: url("../images/adv.jpg");
+  height: 206px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+
+.coop_picture_v_second {
+  background-image: url("../images/v2.jpg");
+  height: 206px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+.coop_picture_v_third {
+  background-image: url("../images/v3.jpg");
+  height: 206px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+}
+
+.work_with_us {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #003f06;
+}
+
+@media screen and (max-width: 1000px) {
+  .perspective_cards {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .production_area {
+    flex-direction: column;
+  }
+  .vacancy_production {
+    margin-bottom: 20px;
+  }
+  .vacancy_production h3 {
+    padding-top: 40px;
+  }
+  .production_bg_info_v {
+    width: 80%;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  .production_bg_v {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 0;
+  }
+  .philosophy_info {
+    flex-wrap: wrap;
+  }
+  .philosophy_block {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .production_bg_v {
+    height: 350px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .global_adv_v {
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .perspective h1 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .vacancy_bg h3 {
+    font-size: 15px;
+  }
+  .vacancy_bg h1 {
+    font-size: 70px;
+  }
+  .philosophy_block {
+    width: 100%;
+    margin-top: 25px;
+    padding-right: 2px;
+  }
+}

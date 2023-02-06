@@ -190,8 +190,7 @@ export default function Garbage() {
           </div>
         </div>
       </div>
-      <Sliders />
-      {/* <Footer /> */}
+      <Footer />
     </MainLayout>
   );
 }

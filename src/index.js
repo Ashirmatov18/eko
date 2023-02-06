@@ -20,6 +20,9 @@ import Partners from "./components/pages/Partners/Partners";
 import Cooperation from "./components/pages/Cooperation/Cooperation";
 import Garbage from "./components/pages/Garbage/Garbage";
 import EkoPark from "./components/pages/EkoPark/EkoPark";
+import Vacancy from "./components/pages/Vacancy/Vacancy";
+import Uap from "./components/pages/UAP/Uap";
+import Green from "./components/pages/Green/Green";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +56,18 @@ const router = createBrowserRouter([
   {
     path: "/ekopark",
     element: <EkoPark />,
+  },
+  {
+    path: "/vacancy",
+    element: <Vacancy />,
+  },
+  {
+    path: "/uap",
+    element: <Uap />,
+  },
+  {
+    path: "/green",
+    element: <Green />,
   },
 ]);
 
