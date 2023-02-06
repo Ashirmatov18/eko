@@ -2,12 +2,22 @@ import React from "react";
 import styles from "../../../styles/Footer.css";
 import footerLogo from "../../../images/лого и защита прав.png";
 // import lg from "../../../images/te_logo.jpg";
-import { Facebook } from "./FooterSvg";
+import {
+  Facebook,
+  Insta,
+  Linkedin,
+  Telegram,
+  Whats,
+  Youtube,
+} from "./FooterSvg";
 import { Link } from "react-router-dom";
+import ScrollUpButton from "react-scroll-up-button";
 
 export default function Footer(props) {
   return (
     <div className="footer_main" {...props}>
+      <ScrollUpButton />
+
       <div className="first_part">
         <div className="logo">
           <img src={footerLogo} alt="" />
@@ -25,29 +35,40 @@ export default function Footer(props) {
             <h3>+86 155 2128 2836</h3>
             <div className="face_whats">
               <Facebook />
-              <Facebook />
+              <Whats />
             </div>
           </div>
 
           <div className="link">
-            <Facebook />
-            <Facebook />
-            <Facebook />
-            <Facebook />
+            <Telegram />
+            <Insta />
+            <Linkedin />
+            <Youtube />
           </div>
         </div>
       </div>
 
       <div className="second_part">
         <ul>
-          <li>Главная</li>
-          <li>О нас</li>
+          <li>
+            <Link to="/">Главная</Link>
+          </li>
+          <li>
+            <Link to="/about">О нас</Link>
+          </li>
           <li>
             <Link to="/garbage">Экотехнологии</Link>
           </li>
-          <li>Технологии</li>
-          <li>Вакансии</li>
-          <li>Контакты</li>
+          <li>
+            <Link to="/technologies">Технологии</Link>
+          </li>
+          <li>
+            <Link to="/vacancy">Вакансии</Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="/contacts">Контакты</Link>
+          </li>
           <li>
             <Link to="/partners">Партнеры</Link>
           </li>
